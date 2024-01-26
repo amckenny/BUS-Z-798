@@ -6,7 +6,7 @@ Create a new Word document in your assignments folder called ***assignment_4.doc
 
 The first part of this assignment is for you to manually simulate data with different multilevel characteristics. This will help you to crystallize what it means for there to be variance associated with multiple levels in your data.
 
-Here is your scenario: You are collecting data on some construct at the within-person level in the field of your interest (e.g., entrepreneurship: entrepreneurial passion, organizational behavior: job satisfaction, etc.). You are collecting data from 10 organizations, each of which has 10 people, each of whom you survey at 5 points in time. You are interested in the extent to which the variable of interest varies within and between people and organizations. I suggest using a 7-point Likert scale for your data.
+Here is your scenario: You are collecting data on some construct at the within-person level in the field of your interest (e.g., entrepreneurship: entrepreneurial passion, organizational behavior: job satisfaction, etc.). You are collecting data from 10 organizations, each of which has 10 people, each of whom you survey at 5 points in time. You are interested in the extent to which the variable of interest varies within and between people and organizations. You may use any scale you'd like for your data (Likert, continuous, etc).
 
 You will be simulating three datasets:
 1. **Construct 1** - In this variable, there should be minimal variance within-person (i.e., the variable is stable over time, but not a constant), but there is substantial variance between people and organizations.
