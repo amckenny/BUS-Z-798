@@ -6,18 +6,18 @@ Create a new Word document in your assignments folder called ***assignment_4.doc
 
 The first part of this assignment is for you to manually simulate data with different multilevel characteristics. This will help you to crystallize what it means for there to be variance associated with multiple levels in your data.
 
-Here is your scenario: You are collecting data on some construct at the within-person level in the field of your interest (e.g., entrepreneurship: entrepreneurial passion, organizational behavior: job satisfaction, etc.). You are collecting data from 10 organizations, each of which has 10 people, each of whom you survey at 5 points in time. You are interested in the extent to which the variable of interest varies within and between people and organizations. You may use any scale you'd like for your data (Likert, continuous, etc).
+Here is your scenario: You are collecting data on some construct at the within-person level in the field of your interest (e.g., entrepreneurship: entrepreneurial passion, organizational behavior: job satisfaction, etc.). You are collecting data from 20 people, each of whom you survey at 5 points in time. You are interested in the extent to which the variable of interest varies within and between people. You may use any scale you'd like for your data (Likert, continuous, etc).
 
 You will be simulating three datasets:
-1. **Construct 1** - In this variable, there should be minimal variance within-person (i.e., the variable is stable over time, but not a constant), but there is substantial variance between people and organizations.
-2. **Construct 2** - In this variable, there should be minimal variance within-person (i.e., the variable is stable over time, but not a constant) and between people within an organization, but there is substantial variance between organizations.
-3. **Construct 3** - In this variable there should be substantial variance within-person (i.e., the variable is not stable over time), between people, and and between organizations. This variable should exhibit more within-person variance than between-person variance and between-organization variance.
+1. **Construct 1** - In this variable, there should be minimal variance within-person (i.e., the variable is stable over time, but not a constant), but there is substantial variance between people.
+2. **Construct 2** - In this variable, there should be substantial variance within-person (i.e., the variable is not stable over time), but there is minimal variance between people.
+3. **Construct 3** - In this variable, there should be substantial variance within-person (i.e., the variable is not stable over time), and between people.
 
 ### Multilevel Data Questions to Answer
 
 1. How did you go about simulating the data to ensure that the data had the characteristics described above?
 2. Calculate and interpret the necessary aggregation statistics. In Stata, you might find these pages helpful for [ICC](https://www.stata.com/manuals/ricc.pdf) and [rwg](https://ideas.repec.org/c/boc/bocode/s458422.html) statistics. Explain why these are necessary, and what they are telling you.
-3. Calculate a null model for each construct. Identify the variance components and compute what percentage of the variance is at each level. See [Examples 1 and 4 in this Stata documentation](https://www.stata.com/manuals/memixed.pdf).
+3. Calculate a null model for each construct. Identify the variance components and compute what percentage of the variance is at each level. See [Example 1 in this Stata documentation](https://www.stata.com/manuals/memixed.pdf).
 4. If these were real data and the variance you found was reflective of the construct's theorizing, what would this mean for the constructs you are studying with respect to level of measurement/aggregation?
 
 ## Part 2 - Multilevel Analysis
