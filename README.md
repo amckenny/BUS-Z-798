@@ -13,7 +13,7 @@ The course will meet on Wednesdays from 9:00 AM-12:00 PM in Hodge Hall 3103
 | ----------- | ----------- | ----------- | ----------- |
 | 1 - January 10 | [1: Research Workflows and Resources](./documents/workflows_resources.md) | [Assignment 1](./assignments/workflows_resources.md) | [Slides](./slides/BUS_Z_798_Week_1.pptx) |
 | 2 - January 17 | [2: Instrument Design and Exploratory Factor Analysis](./documents/inst_design_efa.md) | [Assignment 2](./assignments/inst_design_efa.md) | [Slides](./slides/BUS_Z_798_Week_2.pptx) |
-| 3 - January 24 | [3: Confirmatory Factor Analysis and SEM](./documents/cfa_sem.md) | [Assignment 3](./assignments/cfa_sem.md) | |
+| 3 - January 24 | [3: Confirmatory Factor Analysis and SEM](./documents/cfa_sem.md) | [Assignment 3](./assignments/cfa_sem.md) | [Slides](./slides/BUS_Z_798_Week_3.pptx) |
 | 4 - January 31 | [4: Multilevel Methods/Analysis](./documents/multilevel.md) | [Assignment 4](./assignments/multilevel.md) | |
 | 5 - February 7 | [5: Text Analysis I](./documents/text_analysis_i.md) | [Assignment 5](./assignments/text_analysis_i.md) | |
 | 6 - February 14 | [6: Text Analysis II](./documents/text_analysis_ii.md) | Assignment 6 | |
