@@ -24,7 +24,7 @@ The course will meet on Wednesdays from 9:00 AM-12:00 PM in Hodge Hall 3103
 | 10 - March 20 | 10: High Performance Computing | Assignment 10 | |
 | 11 - March 27 | 11: Machine Learning | Assignment 11 | |
 | 12 - April 3 | [12: Meta Analysis](./documents/meta_analysis.md) | Assignment 12 | |
-| 13 - April 10 | 13: Bayesian Methods | Assignment 13 | |
+| 13 - April 10 | [13: Bayesian Methods](./documents/bayesian.md) | Assignment 13 | |
 | 14 - April 17 | 14: Social Network Analysis | Assignment 14 | |
 | 15 - April 24 | 15: Choose Your Own (Methodological) Adventure | Assignment 15 | |
 
