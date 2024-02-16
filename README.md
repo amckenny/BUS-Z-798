@@ -21,7 +21,7 @@ The course will meet on Wednesdays from 9:00 AM-12:00 PM in Hodge Hall 3103
 | 8 - February 28 | [8: Advanced Data Collection & Handling](./documents/advanced_data.md) | Assignment 8 | |
 | 9 - March 6 | [9: Qualitative Methods](./documents/qualitative.md) | Assignment 9 | |
 | X - March 13 | Spring Break | None | |
-| 10 - March 20 | 10: High Performance Computing | Assignment 10 | |
+| 10 - March 20 | [10: High Performance Computing](./documents/hpc.md) | [Assignment 10](./assignments/hpc.md) | |
 | 11 - March 27 | 11: Machine Learning | Assignment 11 | |
 | 12 - April 3 | [12: Meta Analysis](./documents/meta_analysis.md) | Assignment 12 | |
 | 13 - April 10 | [13: Bayesian Methods](./documents/bayesian.md) | Assignment 13 | |
