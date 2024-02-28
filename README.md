@@ -19,7 +19,7 @@ The course will meet on Wednesdays from 9:00 AM-12:00 PM in Hodge Hall 3103
 | 6 - February 14 | [6: Text Analysis II](./documents/text_analysis_ii.md) | [Assignment 6](./assignments/text_analysis_ii.md) | [Slides](./slides/BUS_Z_798_Week_6.pptx) |
 | 7 - February 21 | [7: Profile Analysis](./documents/profile_analysis.md) | [Assignment 7](./assignments/profile_analysis.md) | [Slides](./slides/BUS_Z_798_Week_7.pptx) |
 | 8 - February 28 | [8: Advanced Data Collection & Handling](./documents/advanced_data.md) | No Assignment | |
-| 9 - March 6 | [9: Qualitative Methods](./documents/qualitative.md) | Assignment 9 | |
+| 9 - March 6 | [9: Qualitative Methods](./documents/qualitative.md) | [Assignment 9](./assignments/qualitative.md) | |
 | X - March 13 | Spring Break | None | |
 | 10 - March 20 | [10: High Performance Computing](./documents/hpc.md) | [Assignment 10](./assignments/hpc.md) | |
 | 11 - March 27 | 11: Machine Learning | Assignment 11 | |
