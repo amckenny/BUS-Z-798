@@ -21,12 +21,12 @@ The course will meet on Wednesdays from 9:00 AM-12:00 PM in Hodge Hall 3103
 | 8 - February 28 | [8: Advanced Data Collection & Handling](./documents/advanced_data.md) | No Assignment | [Slides](./slides/BUS_Z_798_Week_8.pptx)|
 | 9 - March 6 | [9: Qualitative Methods](./documents/qualitative.md) | [Assignment 9](./assignments/qualitative.md) | [Slides](./slides/BUS_Z_798_Week_9.pptx) |
 | X - March 13 | Spring Break | None | |
-| 10 - March 20 | [10: High Performance Computing](./documents/hpc.md) | [Assignment 10](./assignments/hpc.md) | |
-| 11 - March 27 | 11: Machine Learning | Assignment 11 | |
+| 10 - March 20 | [10: High Performance Computing](./documents/hpc.md) | [Assignment 10](./assignments/hpc.md) | No Slides |
+| 11 - March 27 | [11: Machine Learning](./documents/machine_learning.md) | Assignment 11 | |
 | 12 - April 3 | [12: Meta Analysis](./documents/meta_analysis.md) | [Assignment 12](./assignments/meta_analysis.md) | |
 | 13 - April 10 | [13: Bayesian Methods](./documents/bayesian.md) | Assignment 13 | |
-| 14 - April 17 | 14: Social Network Analysis | Assignment 14 | |
-| 15 - April 24 | [15: Choose Your Own (Methodological) Adventure](./documents/choose_own_adventure.md) | Assignment 15 | |
+| 14 - April 17 | [14: Social Network Analysis](./documents/social_networks.md) | Assignment 14 | |
+| 15 - April 24 | [15: Choose Your Own (Methodological) Adventure](./documents/choose_own_adventure.md) | No Assignment | |
 
 Notes:
 * The assignment of topics to weeks is subject to change until the links become active (at least two weeks in advance) - I am working on getting guest experts to come in and talk about some of these topics, and their availability will dictate the schedule.
