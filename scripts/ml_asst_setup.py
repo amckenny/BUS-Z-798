@@ -18,7 +18,7 @@ def main():
     dataset_dir = texts_dir / 'aclImdb'
     train_dir = dataset_dir / 'train'
     url = "https://ai.stanford.edu/~amaas/data/sentiment/aclImdb_v1.tar.gz"
-    text_dataset = tf.keras.utils.get_file("aclImdb_v1", url, untar=True, cache_dir=texts_dir, cache_subdir='')
+    tf.keras.utils.get_file("aclImdb_v1", url, untar=True, cache_dir=texts_dir, cache_subdir='')
     shutil.rmtree(train_dir/'unsup')
 
 if __name__ == "__main__":
