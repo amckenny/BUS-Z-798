@@ -1,0 +1,71 @@
+#!/bin/bash
+
+# This file sets up the environment necessary for the machine learning
+# homework assignment for BUS-Z 798 in Spring 2024
+
+export OMP_NUM_THREADS=8
+
+# Set up Python environment
+echo "=================================================="
+echo "==========Setting up Python Environment==========="
+echo "=================================================="
+module load python/gpu
+module load cudatoolkit
+pip install --quiet --upgrade nltk
+pip install --quiet --upgrade spacy
+pip install --quiet --upgrade IProgress
+pip install --quiet --upgrade ipywidgets
+pip install --quiet --upgrade scattertext
+pip install --quiet --upgrade jupyterlab
+pip install --quiet --upgrade pyldavis
+pip install --quiet --upgrade tomotopy
+pip install --quiet --upgrade xgboost
+echo "Done..."
+echo ""
+
+# Set up directory structure
+echo "=================================================="
+echo "==========Setting up directory structure=========="
+echo "=================================================="
+mkdir -p ./z798_ml_assnmt
+cd ./z798_ml_assnmt
+touch __init__.py
+mkdir -p ./texts
+mkdir -p ./dictionaries
+mkdir -p ./models
+mkdir -p ./models/nltk
+echo "Done..."
+echo ""
+
+echo "=================================================="
+echo "========Downloading Text and Model Corpora========"
+echo "==============This may take a while==============="
+echo "=================================================="
+wget -q http://www.catscanner.net/dictuploads/Tone_H08_Negativity.dict -O ./dictionaries/Tone_H08_Negativity.dict
+wget -q http://www.catscanner.net/dictuploads/Tone_H08_Positivity.dict -O ./dictionaries/Tone_H08_Positivity.dict
+wget -q https://raw.githubusercontent.com/amckenny/BUS-Z-798/main/scripts/ml_asst_setup.py -O ml_asst_setup.py
+wget -q https://raw.githubusercontent.com/amckenny/BUS-Z-798/main/scripts/launch_assignment -O launch_assignment
+wget -q https://raw.githubusercontent.com/amckenny/BUS-Z-798/main/scripts/dict_analysis.py -O dict_analysis.py
+wget -q https://raw.githubusercontent.com/amckenny/BUS-Z-798/main/scripts/machine_learning.ipynb -O machine_learning.ipynb
+python -m spacy download en_core_web_sm
+python ./ml_asst_setup.py
+echo "Done..."
+echo ""
+
+echo "=================================================="
+echo "Environment Setup Complete"
+echo "=================================================="
+echo ""
+echo "===Next steps after this program ends...==="
+echo "1. Disconnect from the current interactive session by typing 'exit' and pressing enter"
+echo "2. Open a new terminal, navigate to the assignment folder and run this command to request an interactive gpu session:"
+echo "=> 'srun -p gpu -A c00697 --x11 --gpus-per-node v100:1 --cpus-per-task 16 --mem 32G --time 0-03:00:00 --pty bash' (...but without quotes)"
+echo "3. When you have been allocated the requested resources, type 'bash launch_assignment' and press enter from within the gpu interactive session"
+echo "4. Open the 'machine_learning.ipynb' notebook inside jupyter lab and begin the assignment!"
+echo ""
+read -p "Press enter to continue"
+
+#Unload Modules
+module unload python/gpu
+module unload cudatoolkit
+echo "Done! Terminating..."

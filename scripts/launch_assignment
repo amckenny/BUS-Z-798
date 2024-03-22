@@ -1,0 +1,32 @@
+#!/bin/bash
+
+# This file launches the environment necessary for the machine learning
+# homework assignment for BUS-Z 798 in Spring 2024 once the gpu interactive
+# session is active
+
+# Set up Python environment
+echo "=================================================="
+echo "============Loading Python Environment============"
+echo "=================================================="
+module load python/gpu
+module load cudatoolkit
+
+echo "=================================================="
+echo "==============Launching Jupyter Lab==============="
+echo "=================================================="
+echo "Launching Jupyter Lab - This will open a Firefox web browser"
+echo "When you are done with the assignment, close the browser."
+echo "Then when you are back at the terminal, press CTRL+C to"
+echo "finish the Jupyter Lab session."
+read -p "Press enter to continue to the assignment"
+jupyter lab
+
+echo "The Jupyter lab session has ended. When you return to the terminal"
+echo "prompt, type 'exit' and press enter to return the GPU resources"
+echo "to the server for someone else to use. After that, you're done."
+read -p "Press enter to continue"
+
+#Unload Modules
+module unload python/gpu
+module unload cudatoolkit
+echo "Done! Terminating..."
