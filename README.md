@@ -22,7 +22,7 @@ The course will meet on Wednesdays from 9:00 AM-12:00 PM in Hodge Hall 3103
 | 9 - March 6 | [9: Qualitative Methods](./documents/qualitative.md) | [Assignment 9](./assignments/qualitative.md) | [Slides](./slides/BUS_Z_798_Week_9.pptx) |
 | X - March 13 | Spring Break | None | |
 | 10 - March 20 | [10: High Performance Computing](./documents/hpc.md) | [Assignment 10](./assignments/hpc.md) | No Slides |
-| 11 - March 27 | [11: Machine Learning](./documents/machine_learning.md) | Assignment 11 | |
+| 11 - March 27 | [11: Machine Learning](./documents/machine_learning.md) | [Assignment 11](./assignments/machine_learning.md) | |
 | 12 - April 3 | [12: Meta Analysis](./documents/meta_analysis.md) | [Assignment 12](./assignments/meta_analysis.md) | |
 | 13 - April 10 | [13: Bayesian Methods](./documents/bayesian.md) | Assignment 13 | |
 | 14 - April 17 | [14: Social Network Analysis](./documents/social_networks.md) | Assignment 14 | |
