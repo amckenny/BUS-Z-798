@@ -26,7 +26,7 @@ The course will meet on Wednesdays from 9:00 AM-12:00 PM in Hodge Hall 3103
 | 12 - April 3 | [12: Meta Analysis](./documents/meta_analysis.md) | [Assignment 12](./assignments/meta_analysis.md) | |
 | 13 - April 10 | [13: Bayesian Methods](./documents/bayesian.md) | No Assignment | [Slides](./slides/BUS_Z_798_Week_13.pptx) |
 | 14 - April 17 | [14: Social Network Analysis](./documents/social_networks.md) | [Assignment 14](./assignments/social_networks.md) | |
-| 15 - April 24 | [15: Choose Your Own (Methodological) Adventure](./documents/choose_own_adventure.md) | Assignment 15 | |
+| 15 - April 24 | [15: Choose Your Own (Methodological) Adventure](./documents/choose_own_adventure.md) | [Assignment 15](./assignments/choose_own_adventure.md) | |
 
 Notes:
 * The assignment of topics to weeks is subject to change until the links become active (at least two weeks in advance) - I am working on getting guest experts to come in and talk about some of these topics, and their availability will dictate the schedule.
